@@ -1,8 +1,12 @@
 {
-    "name": "anandpatel/seoextension-plugin",
+    "name": "makcsoop/seoblog",
     "type": "october-plugin",
-    "description": "None",
+    "description": "SEO Plugin for OctoberCMS Blog",
     "require": {
+        "php": ">=7.2",
         "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "seoblog"
     }
 }
